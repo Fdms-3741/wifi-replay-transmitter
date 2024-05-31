@@ -51,11 +51,5 @@ This file contains all information relevant to the packet\_injector progress
 ### Options to implement
 
 * [ ] -i/--interface: sets the injection interface
-* [ ] -r/--read-file: Input pcap file
 * [ ] -v/--verbose: Displays more information
 
-## TODO
-
-* [ ] CRITICAL: fix bug when calculating amount of time to sleep 
- * consider using nanosleep instead of sleep
- * Verify (or Define) the correct timestamp value to save to pcap file
